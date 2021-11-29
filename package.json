@@ -1,0 +1,32 @@
+{
+  "name": "jira-client",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Jira",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "jira client",
+    "jira"
+  ],
+  "author": "InnoWaysIT",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.2",
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "appId": "com.innowaysit.jiraclient",
+    "mac": {
+      "category": "project.management"
+    },
+    "linux": {
+      "category": "Development"
+    }
+  }
+}
